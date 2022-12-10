@@ -1,0 +1,43 @@
+.changePosition {
+    position: absolute;
+    top: 5px;
+    left: 250px;
+    padding: 10px 0 10px 20px;
+    line-height: 20px;
+}
+
+body {
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+body {
+    background-color: rgb(207, 195, 206);
+    font-style: normal;
+    font-variant: normal;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.codeColor {
+    color:rgb(218, 201, 233);
+    padding-top: 10px;
+    text-align: left;
+    background-color: black;
+    width: 400px;
+    height: 80px;
+}
+
+.summery {
+    text-align: left;
+    width: 600px;
+    height: 80px;
+}
+
+h3 {
+    color: rgb(58, 56, 56);
+    text-decoration: underline;
+}
+
+
