@@ -1,15 +1,6 @@
-.changePosition {
-    position: absolute;
-    top: 5px;
-    left: 250px;
-    padding: 10px 0 10px 20px;
-    line-height: 20px;
-}
-
-body {
-    position: relative;
-    top: 5px;
-    left: 15px;
+@font-face {
+    font-family: 'Raleway';
+    src: url("assets\fonts\Raleway\static\Raleway-Black.ttf");
 }
 
 body {
@@ -17,10 +8,53 @@ body {
     font-style: normal;
     font-variant: normal;
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Raleway';
+}
+/*
+* {
+    box-sizing: border-box;
 }
 
-.codeColor {
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+*/
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width= 768px) {
+    .section {
+        width: 100%;
+    }
+    
+}
+
+#profile {
+    display: inline;
+    height: 100px;
+    width: 1440px;
+    margin-right: 300px;
+}
+
+.name {
+    text-align: right;
+}
+
+.code-color {
     color:rgb(218, 201, 233);
     padding-top: 10px;
     text-align: left;
@@ -31,13 +65,20 @@ body {
 
 .summery {
     text-align: left;
-    width: 600px;
+    width: 400px;
     height: 80px;
 }
 
-h3 {
+h2 {
     color: rgb(58, 56, 56);
     text-decoration: underline;
 }
 
+.header {
+    border: 1px solid black;
+}
 
+.footer {
+    border: 1px solid black;
+
+}
