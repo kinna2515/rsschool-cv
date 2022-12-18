@@ -6,31 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets.svg">
     <title>CV</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">navigation</div>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="n-iteam"><a href="#contacts" class="n-link">Contacts</a></li>
+                    <li class="n-iteam"><a href="#summery" class="n-link">Summery</a></li>
+                    <li class="n-iteam"><a href="#skills" class="n-link">Skills</a></li>
+                    <li class="n-iteam"><a href="#code" class="n-link">Code</a></li>
+                    <li class="n-iteam"><a href="#experience" class="n-link">Experience</a></li>
+                    <li class="n-iteam"><a href="#education" class="n-link">Education</a></li>
+                    <li class="n-iteam"><a href="#courses" class="n-link">Courses</a></li>
+                    <li class="n-iteam"><a href="#projects" class="n-link">Projects</a></li>
+                    <li class="n-iteam"><a href="#languages" class="n-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <div class="container main-container">
-        <section class="section" id="profile">
-            <img src="assets/img/XR2U1845-Exposure.jpg" alt="My photo" height="100" width="100" align="left">
-                <div class="name">
-                        <h1><b>Inna Barysenka</b></h1>
-                        <p><b>Junior Frontend Developer</b></p>
-                </div>
-        </section>
+            <section class="section" id="profile">
+                <img src="assets/img/XR2U1845-Exposure.jpg" alt="My photo" class="avatar">
+                <h1 class="name"><b>Inna Barysenka</b></h1>
+                <p class="name"><b>Junior Frontend Developer</b></p>
+            </section>
 
             <section class="section" id="contacts">
                 <h2><b>Contacts</b></h2>
-                <ul>
-                    <li>Mobile: +37529 3549213</li>
-                    <li>email: inna.barysenka@gmail.com</li>
-                    <li>Discord: Inna Barysenka(@kinna2515)</li>
-                    <li><a href="https://www.linkedin.com/in/inna-barysenka-155683138/">Linkedin</a></li>
+                <ul class="contacts">
+                    <li><img src="assets\svg\icons8-звонок-32.svg" alt="Mobile" class="icons">+37529 3549213</li>
+                    <li><img src="assets\svg\icons8-сообщение-50.svg" alt="email" class="icons">inna.barysenka@gmail.com
+                    </li>
+                    <li><img src="assets\svg\icons8-discord.svg" alt="Discord" class="icons">Inna Barysenka(@kinna2515)
+                    </li>
+                    <li><img src="assets\svg\icons8-обеденные-кругом-30.svg" alt="Linkedin" class="icons"><a
+                            href="https://www.linkedin.com/in/inna-barysenka-155683138/" class="main-icon">Linkedin</a>
+                    </li>
                 </ul>
             </section>
 
@@ -54,78 +71,32 @@
                     <li>HTML, CSS</li>
                     <li>JavaScript</li>
                     <li>Software testing</li>
-                    <li>SQL</li>
                     <li>Git, Markdown</li>
                     <li>VSCode, Chrome Dev Tools, Terminal</li>
                     <li>HR-management</li>
-                    <li>Recruitment</li>
                 </ul>
+            </section>
+
+
+            <section class="section" id="experience">
+                <h2><b>Experience</b></h2>
+                <p class="experience"><b>Nitka Technologies (May 2018 - May2020)</b><br>
+                    <i>HR Manager/Recruiter</i>
+                </p>
+                <p class="experience"><b>Individual entrepreneur Talkachova Alena (Oct 2010 - Aug 2016)</b><br>
+                    <i>Sales consultant</i>
+                </p>
             </section>
 
             <section class="section" id="code">
                 <h2><b>Code</b></h2>
                 <div class="code-color">
                     <code>
-                         function multiply (a,b) {
-                          return a * b;
-                        }
+                        function multiply (a,b) {<br>
+                                return a * b;<br>
+                            }
                     </code>
                 </div>
-            </section>
-
-            <section class="section" id="projects">
-                <h2><b>Projects</b></h2>
-                <ul>
-                    <li>ссылка на CV</li>
-                    <li>To be continued</li>
-                </ul>
-            </section>
-
-            <section class="section" id="languages">
-
-                <h2><b>Languages</b></h2>
-                <ul>
-                    <li>English: B1+</li>
-                    <li>Russian: Native</li>
-                </ul>
-            </section>
-
-            <section class="section" id="experience">
-                <h2><b>Experience</b></h2>
-                <ul>
-                    <li>
-                        <p><b>Nitka Technologies</b>(May 2018 - May2020)<br>
-                            Job title: HR Manager/Recruiter<br>
-                            <i>Responsibilities:</i>
-                        </p>
-                        <ul>
-                            <li>Human resource process (vacation, sick/unpaid leaves);</li>
-                            <li>Work with time tracking system;</li>
-                            <li>Search for candidates both local and Eastern Europe/Latin America;</li>
-                            <li>Onboarding;</li>
-                            <li>Organization and control of English classes;</li>
-                            <li>Teamwork, organization of events, meetups;</li>
-                            <li>Office management.</li>
-                        </ul>
-                    </li>
-
-                    <p><b>Individual entrepreneur Talkachova Alena</b>(Oct 2010 - Aug 2016)<br>
-                        Job title: Sales consultant<br>
-                        <i>Responsibilities:</i>
-                    </p>
-                    <ul>
-                        <li>Counseling clients;</li>
-                        <li>Orders and invoices;</li>
-                        <li>Product management and reporting.</li>
-                    </ul>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="section" id="education">
-                <h2><b>Education</b></h2>
-                <p><b>Skorina Gomel State University</b>(2005-2010)<br>
-                    Specialty: Economist-manager</p>
             </section>
 
             <section class="section" id="courses">
@@ -140,11 +111,38 @@
                     <li>Software Testing (2017).</li>
                 </ul>
             </section>
+
+            <section class="section" id="projects">
+                <h2><b>Projects</b></h2>
+                <p>https://kinna2515.github.io/rsschool-cv/cv</p>
+            </section>
+
+            <section class="section" id="education">
+                <h2><b>Education</b></h2>
+                <p>Skorina Gomel State University(2010)<br>
+                    Economist-manager</p>
+            </section>
+
+            <section class="section" id="languages">
+
+                <h2><b>Languages</b></h2>
+                <p>English: B1+<br>
+                    Russian: Native</p>
+            </section>
+
         </div>
     </main>
 
     <footer class="footer">
-        <div class="container">logo 2021 github</div>
+        <div class="container">
+            <ul class="f-list">
+                <li class="f-iteam">@2022</li>
+                <li class="f-iteam"><a href="https://rs.school/js/" class="f-link"><img class="svg"
+                            src="assets\svg\rs_school_js.svg" alt="Logo"></a></li>
+                <li class="f-iteam"><a href="https://github.com/kinna2515" class="f-link">
+                        <img class="svg" src="assets/svg/icons8-github.svg" alt="Git"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 
