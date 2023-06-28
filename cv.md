@@ -1,4 +1,4 @@
-  ![Avatar](https://media-exp1.licdn.com/dms/image/C4D03AQEH_BrfYQXxPQ/profile-displayphoto-shrink_400_400/0/1517518404283?e=1675900800&v=beta&t=BBPMzc4iGIJN94v1ueOOcx7ybwOg4C0ZHS-2I2Zc_JQ 'Avatar')
+  ![Avatar](/rsschool-cv/avatar/avatar.jpg)
 ## **Inna Barysenka** 
 ### Contacts:
 
@@ -26,9 +26,17 @@ I am a really hard-working, multitasking and purposeful person, who is not afrai
 
 ### Code
 ```
-function multiply (a,b) {
-    return a * b;
-}
+function findMissing(arr1, arr2) {
+var sum1 = 0;
+  var sum2 = 0;
+ for (i=0; i<arr1.length; i++) {
+  sum1 += arr1[i];
+ }
+ for (i=0; i<arr2.length; i++) {
+  sum2 += arr2[i];
+ }
+      return sum1 - sum2
+    }
 ```
 ### Experience
 * Nitka Technologies (May 2018 - May2020)
@@ -60,8 +68,8 @@ function multiply (a,b) {
    Specialty: Economist-manager
 
 ### Courses
-* JavaScript/Front-end. Stage 0 (in progress);
-* Business English. Upper-Intermediate (in progress);
+* JavaScript/Front-end. Stage 0 (December, 2022 - March, 2023);
+* Business English. Upper-Intermediate (2022-2023);
 * HR managment 3.0 (2020);
 * English Upper-Intermediate (2018-2019);
 * English Intermediate (2017-2018);
@@ -70,7 +78,7 @@ function multiply (a,b) {
 
 ### Languages
 
-+ English: level B1+
++ English: level B2
 + Russian: Native
 
 
