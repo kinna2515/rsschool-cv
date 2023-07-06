@@ -1,0 +1,30 @@
+@media (max-width=768px) {
+    body {
+        width: 100%;
+    }
+}
+
+ body {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(237, 205, 234);
+}
+
+header {
+    width: 50%;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(237, 205, 234);
+}
+
+footer {
+    width: 50%;
+}
