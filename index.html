@@ -92,18 +92,22 @@
                 <h2><b>Code</b></h2>
                 <div class="code-color">
                     <code>
-                            function multiply (a,b) {<br>
-                                    return a * b;<br>
-                                }
-                        </code>
+                        function mergeArrays(arr1, arr2) { <br>
+                            if (arr1.length == 0 && arr2.length == 0) { <br>
+                             return []; <br>
+                           } else { <br>
+                              return Array.from(new Set(arr1.concat(arr2))).sort((a,b) => a - b); <br> 
+                           } <br>
+                         }
+                    </code>
                 </div>
             </section>
 
             <section class="section" id="courses">
                 <h2><b>Courses</b></h2>
                 <ul>
-                    <li>JavaScript/Front-end. Stage 0<i>(in progress)</i>;</li>
-                    <li>Business English. Upper-Intermediate<i>(in progress)</i>;</li>
+                    <li>JavaScript/Front-end. Stage 0<i>(Dec 2022 - Mar2023)</i>;</li>
+                    <li>Business English. Upper-Intermediate<i>(2022-2023)</i>;</li>
                     <li>HR managment 3.0 (2020);</li>
                     <li>English Upper-Intermediate (2018-2019);</li>
                     <li>English Intermediate (2017-2018);</li>
@@ -114,7 +118,9 @@
 
             <section class="section" id="projects">
                 <h2><b>Projects</b></h2>
-                <p>https://kinna2515.github.io/rsschool-cv/cv</p>
+                <p>https://kinna2515.github.io/rsschool-cv/cv<br>
+                    https://rolling-scopes-school.github.io/kinna2515-JSFEPRESCHOOL2022Q4/
+                </p>
             </section>
 
             <section class="section" id="education">
@@ -126,7 +132,7 @@
             <section class="section" id="languages">
 
                 <h2><b>Languages</b></h2>
-                <p>English: B1+<br>
+                <p>English: B2<br>
                     Russian: Native</p>
             </section>
 
