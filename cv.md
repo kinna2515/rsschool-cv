@@ -9,18 +9,23 @@
 
 ### About me
 ----
-I have worked as perfume and cosmetics consultant in the trading for more than 5 years and 2 years as HR manager in IT company. Tech sphere is interested me. Now, I make decision to change my area and try myself in Frontend development. 
-I am a really hard-working, multitasking and purposeful person, who is not afraid of difficulties. I like learning something new and seeking self-development.
+
+After university, I worked as a perfume and cosmetics consultant in trade for over 5 years and as a HR manager in an IT company for 2 years. I am interested in the technology field, especially Frontend development. It is really close to me, because whatever I do, I immediately see the result.
+
+My soft skills are hard work, multitasking, curiosity and responsibility. I am a truly goal-oriented person who is not afraid of difficulties. My passion is to learn something new, solve complex problems and strive for self-development.
 
 ----
 
 ### Skills
 * HTML, CSS
 * JavaScript
-* Software testing
-* SQL
+* TypeScript
+* Next.js
 * Git, Markdown
 * VSCode, Chrome Dev Tools, Terminal 
+* webpack
+* Software testing
+* SQL
 * HR-management
 * Recruitment
 
@@ -28,7 +33,7 @@ I am a really hard-working, multitasking and purposeful person, who is not afrai
 ```
 function findMissing(arr1, arr2) {
 var sum1 = 0;
-  var sum2 = 0;
+var sum2 = 0;
  for (i=0; i<arr1.length; i++) {
   sum1 += arr1[i];
  }
@@ -51,8 +56,10 @@ var sum1 = 0;
     + Onboarding;
     + Organization and control of English classes;
     + Teamwork, organization of events, meetups;
-    + Office management.
+    + Office management;
+
 ---
+
 * Individual entrepreneur Talkachova Alena (Oct 2010 - Aug 2016)
 
     Job title: Sales consultant
@@ -68,7 +75,10 @@ var sum1 = 0;
    Specialty: Economist-manager
 
 ### Courses
-* JavaScript/Front-end. Stage 0 (December, 2022 - March, 2023);
+* JavaScript/Front-end. Stage 1 (Oct, 2023 - Jan, 2024);
+* JavaScript/Front-end. Stage 0 (Jun, 2023 - Oct, 2023);
+* JavaScript/Front-end. Stage 0 (Dec, 2022 - Mar, 2023);
+* Common English. Advanced C1 (2023-2024);
 * Business English. Upper-Intermediate (2022-2023);
 * HR managment 3.0 (2020);
 * English Upper-Intermediate (2018-2019);
