@@ -32,7 +32,7 @@ My soft skills are hard work, multitasking, curiosity and responsibility. I am a
 ```
 function findMissing(arr1, arr2) {
 var sum1 = 0;
-  var sum2 = 0;
+var sum2 = 0;
  for (i=0; i<arr1.length; i++) {
   sum1 += arr1[i];
  }
@@ -55,8 +55,10 @@ var sum1 = 0;
     + Onboarding;
     + Organization and control of English classes;
     + Teamwork, organization of events, meetups;
-    + Office management.
+    + Office management;
+
 ---
+
 * Individual entrepreneur Talkachova Alena (Oct 2010 - Aug 2016)
 
     Job title: Sales consultant
