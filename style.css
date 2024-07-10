@@ -9,10 +9,10 @@ body {
   font-variant: normal;
   font-size: 16px;
   font-family: "Raleway";
-  margin: 0;
+  margin: 0 auto;
 }
 .container {
-  max-width: 100%;
+  max-width: 80%;
   margin: 0 auto;
   background-color: rgb(213, 211, 211);
 }
@@ -91,8 +91,7 @@ h2 {
 }
 
 .header {
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
   background-color: rgb(213, 211, 211);
 }
 
@@ -120,8 +119,7 @@ h2 {
 }
 
 .footer {
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
   background-color: rgb(213, 211, 211);
 }
 
